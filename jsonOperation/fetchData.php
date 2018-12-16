@@ -21,7 +21,8 @@
             }).then(function(informationAll){
                 info = informationAll
                 putItOnBody(info)
-            })
+            }).catch((error)=> alert("There is an arrow"))
+        
         }
 
         function putItOnBody(info){
