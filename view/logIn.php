@@ -9,7 +9,7 @@
     </head>
     <body>
         <?php
-    include("../header.php");
+    include("../view/header.php");
     echo"<p>This is a log in page</p>";
     ?>
     <ul>
